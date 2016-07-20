@@ -1,0 +1,12 @@
+// Component :: List :: Base
+
+& {
+  @import "pack/seed-spacing/functions/spacing";
+  @import "../../mixins/list-unstyled";
+
+  @include list-unstyled;
+
+  > #{$seed-list-item-selector} {
+    margin: spacing(1) 0;
+  }
+}

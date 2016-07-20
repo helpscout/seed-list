@@ -1,0 +1,6 @@
+/**
+ * seed-list v0.0.1 (https://github.com/helpscout/seed-list)
+ * List component pack for Seed
+ * Licensed under MIT
+ */
+.c-list{list-style:none;padding-left:0}.c-list>li{margin:4px 0}.c-list--bordered>li{border-bottom:1px solid;border-color:#eee;padding:0 8px}.c-list--dotted>li{border-bottom:1px dotted;border-color:#eee}.c-list--inline>li{display:inline-block;padding-left:4px}

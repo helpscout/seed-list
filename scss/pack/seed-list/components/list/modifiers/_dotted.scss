@@ -1,0 +1,11 @@
+// Modifiers :: Dotted
+
+&--dotted {
+  @import "pack/seed-border/config";
+  @import "pack/seed-spacing/functions/spacing";
+
+  > #{$seed-list-item-selector} {
+    border-bottom: 1px dotted;
+    border-color: $seed-border-color;
+  }
+}

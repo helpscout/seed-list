@@ -1,0 +1,12 @@
+// Modifiers :: Bordered
+
+&--bordered {
+  @import "pack/seed-border/config";
+  @import "pack/seed-spacing/functions/spacing";
+
+  > #{$seed-list-item-selector} {
+    border-bottom: 1px solid;
+    border-color: $seed-border-color;
+    padding: 0 spacing(2);
+  }
+}

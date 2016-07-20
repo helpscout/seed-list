@@ -10,20 +10,23 @@
     "test": "node ./scripts/test.js && npm run build",
     "prepublish": "npm run test"
   },
-  "homepage": "",
+  "homepage": "https://github.com/helpscout/seed-list",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/helpscout/seed-list.git"
   },
   "authors": [
+    "ItsJonQ <itsjonq@gmail.com>"
   ],
   "license": "MIT",
   "keywords": [
     "bem",
+    "component",
     "css",
     "design",
     "functional",
     "itcss",
+    "list",
     "modular",
     "oocss",
     "performance",
@@ -37,5 +40,9 @@
   "devDependencies": {
     "mkdirp": "^0.5.1",
     "node-sass": "^3.8.0"
+  },
+  "dependencies": {
+    "seed-border": "0.0.2",
+    "seed-spacing": "^0.2.0"
   }
 }

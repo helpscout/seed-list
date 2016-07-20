@@ -1,0 +1,11 @@
+// Modifiers :: Inline
+
+&--inline {
+  @import "pack/seed-spacing/functions/spacing";
+
+  > #{$seed-list-item-selector} {
+    display: inline-block;
+
+    padding-left: spacing(1);
+  }
+}
