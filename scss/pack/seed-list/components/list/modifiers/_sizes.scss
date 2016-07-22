@@ -1,0 +1,10 @@
+// Modifiers :: Sizes
+
+@each $class, $size in $seed-list-sizes {
+  &--#{$class} {
+    > #{$seed-list-item-selector} {
+      margin-bottom: $size;
+      margin-top: 0;
+    }
+  }
+}
