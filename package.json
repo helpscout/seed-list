@@ -42,7 +42,7 @@
     "node-sass": "^3.8.0"
   },
   "dependencies": {
-    "seed-border": "0.0.2",
-    "seed-spacing": "^0.2.0"
+    "seed-border": "0.0.3",
+    "seed-spacing": "^0.2.5"
   }
 }
