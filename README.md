@@ -30,7 +30,7 @@ gulp.task('sass', function () {
 
 Once that is setup, simply `@import` *seed-list* as needed in your `.scss` file:
 
-```sass
+```scss
 // Packs
 @import "pack/seed-list/_index";
 ```
@@ -62,8 +62,8 @@ gulp.task('sass', function () {
 
 The following variables can be found in `_config.scss`
 
-```sass
+```scss
 // Namespaces
 $seed-list-namespace: "c-list" !default;
-$seed-list-item-selector: "li" !default;
+$seed-list-item-namespace: #{$seed-list-namespace}__item !default;
 ```
