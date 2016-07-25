@@ -1,0 +1,7 @@
+// List item :: Index
+
+.#{$seed-list-item-namespace},
+.#{$seed-list-namespace} > li {
+  // Base
+  @import "./base";
+}

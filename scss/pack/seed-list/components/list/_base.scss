@@ -6,8 +6,4 @@
 
   @include list-unstyled;
   box-sizing: border-box;
-
-  #{$seed-list-item-namespace} {
-    @import "../list-item/base";
-  }
 }

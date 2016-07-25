@@ -7,6 +7,7 @@ var pathfinder = require('./pathfinder');
 var file = pkg.name;
 var includePaths = pathfinder(
   require('seed-border'),
+  require('seed-breakpoints'),
   require('seed-spacing')
 );
 

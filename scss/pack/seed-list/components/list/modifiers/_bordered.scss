@@ -4,7 +4,8 @@
   @import "pack/seed-border/config";
   @import "pack/seed-spacing/functions/spacing";
 
-  #{$seed-list-item-namespace} {
+  .#{$seed-list-item-namespace},
+  > li {
     border-bottom: 1px solid;
     border-color: $seed-border-color;
     padding: 0 spacing(2);
