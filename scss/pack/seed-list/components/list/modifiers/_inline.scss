@@ -3,9 +3,8 @@
 &--inline {
   @import "pack/seed-spacing/functions/spacing";
 
-  > #{$seed-list-item-selector} {
+  #{$seed-list-item-namespace} {
     display: inline-block;
-
     padding-left: spacing(1);
   }
 }

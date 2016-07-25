@@ -2,7 +2,7 @@
 
 @each $class, $size in $seed-list-sizes {
   &--#{$class} {
-    > #{$seed-list-item-selector} {
+    #{$seed-list-item-namespace} {
       margin-bottom: $size;
       margin-top: 0;
     }

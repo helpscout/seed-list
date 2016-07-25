@@ -5,7 +5,7 @@
 
 // Namespaces
 $seed-list-namespace: "c-list" !default;
-$seed-list-item-selector: "li" !default;
+$seed-list-item-namespace: "> li" !default;
 
 // Sizes
 $seed-list-sizes: (

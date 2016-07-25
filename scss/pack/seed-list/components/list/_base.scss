@@ -5,8 +5,9 @@
   @import "../../mixins/list-unstyled";
 
   @include list-unstyled;
+  box-sizing: border-box;
 
-  > #{$seed-list-item-selector} {
-    margin: spacing(1) 0;
+  #{$seed-list-item-namespace} {
+    @import "../list-item/base";
   }
 }

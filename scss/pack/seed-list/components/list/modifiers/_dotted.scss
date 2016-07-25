@@ -4,7 +4,7 @@
   @import "pack/seed-border/config";
   @import "pack/seed-spacing/functions/spacing";
 
-  > #{$seed-list-item-selector} {
+  #{$seed-list-item-namespace} {
     border-bottom: 1px dotted;
     border-color: $seed-border-color;
   }

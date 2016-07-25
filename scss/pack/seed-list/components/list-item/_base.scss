@@ -1,0 +1,9 @@
+// List item :: Base
+
+// Dependencies
+@import "pack/seed-spacing/functions/spacing";
+
+& {
+  box-sizing: border-box;
+  margin: spacing(1) 0;
+}
