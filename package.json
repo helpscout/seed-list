@@ -45,6 +45,6 @@
   "dependencies": {
     "seed-border": "0.0.3",
     "seed-breakpoints": "^0.3.1",
-    "seed-spacing": "^0.2.5"
+    "seed-spacing": "^0.2.6"
   }
 }
