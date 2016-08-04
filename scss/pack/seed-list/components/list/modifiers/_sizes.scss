@@ -4,8 +4,8 @@
   &--#{$class} {
     .#{$seed-list-item-namespace},
     > li {
-      margin-bottom: $size;
-      margin-top: 0;
+      padding-bottom: $size;
+      padding-top: $size;
     }
   }
 }

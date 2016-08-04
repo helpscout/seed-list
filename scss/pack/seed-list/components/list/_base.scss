@@ -6,4 +6,8 @@
 
   @include list-unstyled;
   box-sizing: border-box;
+
+  @at-root {
+    @import "../list-item/_index";
+  }
 }

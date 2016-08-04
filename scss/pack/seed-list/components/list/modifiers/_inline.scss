@@ -10,6 +10,10 @@
     > li {
       display: inline-block;
       padding-left: spacing(1);
+
+      &:first-child {
+        padding-left: 0;
+      }
     }
   }
 }
