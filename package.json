@@ -1,6 +1,6 @@
 {
   "name": "seed-list",
-  "version": "0.0.7",
+  "version": "0.0.5",
   "description": "List component pack for Seed",
   "main": "index.js",
   "scripts": {
