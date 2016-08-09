@@ -1,11 +1,11 @@
 // List item :: Base
 
 // Dependencies
-@import "pack/seed-spacing/functions/spacing";
+@import "../../config";
 
 & {
   box-sizing: border-box;
   display: block;
   margin: 0;
-  padding: spacing(1) 0;
+  padding: $seed-list-size-default 0;
 }

@@ -2,6 +2,12 @@
 
 List component pack for Seed
 
+**File size**
+
+Minified | Gzipped
+---|---
+2.3 KB | 554 B
+
 ## Install
 ```
 npm install seed-list --save-dev
@@ -66,4 +72,15 @@ The following variables can be found in `_config.scss`
 // Namespaces
 $seed-list-namespace: "c-list" !default;
 $seed-list-item-namespace: #{$seed-list-namespace}__item !default;
+
+// Sizes
+$seed-list-size-default: spacing(1) !default;
+
+$seed-list-sizes: (
+  xs: 0,
+  sm: ceil(spacing(1) / 2),
+  md: $seed-list-size-default,
+  lg: spacing(2),
+  xl: spacing(4)
+) !default;
 ```

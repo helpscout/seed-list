@@ -1,5 +1,5 @@
 /**
- * seed-list v0.0.8 (https://github.com/helpscout/seed-list)
+ * seed-list v0.0.9 (https://github.com/helpscout/seed-list)
  * List component pack for Seed
  * Licensed under MIT
  */
@@ -94,25 +94,25 @@
 
 .c-list--xs .c-list__item,
 .c-list--xs > li {
-  padding-bottom: 4px;
-  padding-top: 4px; }
+  padding-bottom: 0;
+  padding-top: 0; }
 
 .c-list--sm .c-list__item,
 .c-list--sm > li {
-  padding-bottom: 8px;
-  padding-top: 8px; }
+  padding-bottom: 2px;
+  padding-top: 2px; }
 
 .c-list--md .c-list__item,
 .c-list--md > li {
-  padding-bottom: 16px;
-  padding-top: 16px; }
+  padding-bottom: 4px;
+  padding-top: 4px; }
 
 .c-list--lg .c-list__item,
 .c-list--lg > li {
-  padding-bottom: 24px;
-  padding-top: 24px; }
+  padding-bottom: 8px;
+  padding-top: 8px; }
 
 .c-list--xl .c-list__item,
 .c-list--xl > li {
-  padding-bottom: 32px;
-  padding-top: 32px; }
+  padding-bottom: 16px;
+  padding-top: 16px; }

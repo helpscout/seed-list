@@ -8,10 +8,12 @@ $seed-list-namespace: "c-list" !default;
 $seed-list-item-namespace: #{$seed-list-namespace}__item !default;
 
 // Sizes
+$seed-list-size-default: spacing(1) !default;
+
 $seed-list-sizes: (
-  xs: spacing(1),
-  sm: spacing(2),
-  md: spacing(4),
-  lg: spacing(6),
-  xl: spacing(8)
+  xs: 0,
+  sm: ceil(spacing(1) / 2),
+  md: $seed-list-size-default,
+  lg: spacing(2),
+  xl: spacing(4)
 ) !default;
