@@ -1,6 +1,6 @@
 # seed-list [![Build Status](https://travis-ci.org/helpscout/seed-list.svg?branch=master)](https://travis-ci.org/helpscout/seed-list) [![npm version](https://badge.fury.io/js/seed-list.svg)](https://badge.fury.io/js/seed-list) [![Dependency Status](https://david-dm.org/helpscout/seed-list.svg)](https://david-dm.org/helpscout/seed-list)
 
-List component pack for Seed
+List component pack for [Seed](https://github.com/helpscout/seed)!
 
 **File size**
 
@@ -10,7 +10,7 @@ Minified | Gzipped
 
 ## Install
 ```
-npm install seed-list --save-dev
+npm install seed-list --save
 ```
 
 
