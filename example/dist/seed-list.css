@@ -38,11 +38,6 @@
   .c-list--block\@lg > li {
     display: block; } }
 
-@media (min-width: 1200px) {
-  .c-list--block\@xl .c-list__item,
-  .c-list--block\@xl > li {
-    display: block; } }
-
 .c-list--dotted .c-list__item,
 .c-list--dotted > li {
   border-bottom: 1px dotted;
@@ -81,15 +76,6 @@
     padding-left: 4px; }
     .c-list--inline\@lg .c-list__item:first-child,
     .c-list--inline\@lg > li:first-child {
-      padding-left: 0; } }
-
-@media (min-width: 1200px) {
-  .c-list--inline\@xl .c-list__item,
-  .c-list--inline\@xl > li {
-    display: inline-block;
-    padding-left: 4px; }
-    .c-list--inline\@xl .c-list__item:first-child,
-    .c-list--inline\@xl > li:first-child {
       padding-left: 0; } }
 
 .c-list--xs .c-list__item,

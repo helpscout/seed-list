@@ -2,11 +2,6 @@
 
 List component pack for [Seed](https://github.com/helpscout/seed)!
 
-**File size**
-
-Minified | Gzipped
----|---
-2.3 KB | 554 B
 
 ## Install
 ```
