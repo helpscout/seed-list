@@ -1,13 +1,12 @@
 // Component :: List :: Base
 
-& {
-  @import "pack/seed-spacing/functions/spacing";
-  @import "../../mixins/list-unstyled";
+// Dependencies
+@import "pack/seed-publish/_index";
+@import "../../mixins/list-unstyled";
 
-  @include list-unstyled;
-  box-sizing: border-box;
-
-  @at-root {
-    @import "../list-item/_index";
+@include export(seed-list) {
+  & {
+    @include list-unstyled;
+    box-sizing: border-box;
   }
 }

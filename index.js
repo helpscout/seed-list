@@ -4,6 +4,7 @@ var pathfinder = require('./scripts/pathfinder');
 var files = pathfinder(
   require('seed-border'),
   require('seed-breakpoints'),
+  require('seed-publish'),
   require('seed-spacing'),
   path.join(__dirname, 'scss')
 );

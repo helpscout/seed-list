@@ -1,0 +1,50 @@
+// Modifiers :: Styles
+
+// Dependencies
+@import "pack/seed-border/config";
+@import "pack/seed-breakpoints/_index";
+@import "pack/seed-publish/_index";
+
+@include export(seed-list) {
+  &--block {
+    @include breakpoint-all {
+      .#{$seed-list-item-namespace},
+      > li {
+        display: block;
+      }
+    }
+  }
+
+
+  &--bordered {
+    .#{$seed-list-item-namespace},
+    > li {
+      border-bottom: 1px solid;
+      border-color: $seed-border-color;
+    }
+  }
+
+
+  &--dotted {
+    .#{$seed-list-item-namespace},
+    > li {
+      border-bottom: 1px dotted;
+      border-color: $seed-border-color;
+    }
+  }
+
+
+  &--inline {
+    @include breakpoint-all {
+      .#{$seed-list-item-namespace},
+      > li {
+        display: inline-block;
+        padding-left: $seed-list-size-default;
+
+        &:first-child {
+          padding-left: 0;
+        }
+      }
+    }
+  }
+}
