@@ -9,6 +9,11 @@ npm install seed-list --save
 ```
 
 
+## Documentation
+
+Check out our **[documentation of this pack](http://developer.helpscout.net/seed/packs/seed-list/)**.
+
+
 ## Basic Usage
 
 ### SCSS
