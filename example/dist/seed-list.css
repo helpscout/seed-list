@@ -103,3 +103,17 @@
     .c-list--inline\@lg .c-list__item:first-child,
     .c-list--inline\@lg > li:first-child {
       padding-left: 0; } }
+
+.c-list--bullet {
+  list-style-type: disc;
+  padding-left: 16px; }
+  .c-list--bullet .c-list__item,
+  .c-list--bullet > li {
+    display: list-item; }
+
+.c-list--number {
+  list-style-type: decimal;
+  padding-left: 16px; }
+  .c-list--number .c-list__item,
+  .c-list--number > li {
+    display: list-item; }
