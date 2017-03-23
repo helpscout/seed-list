@@ -8,5 +8,10 @@
   &--#{$seed-list-number-namespace} {
     list-style-type: decimal;
     padding-left: $seed-list-offset-left;
+
+    .#{$seed-list-item-namespace},
+    & > li {
+      display: list-item;
+    }
   }
 }

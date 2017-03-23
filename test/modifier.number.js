@@ -21,6 +21,16 @@ describe('seed-list: modifier: number', function() {
   });
 
   it('should have a left offset', function() {
-    assert.equal($o.getProp('padding-left'), '12px');
+    assert.equal($o.getProp('padding-left'), '16px');
+  });
+
+  it('should have li with display: list-item', function() {
+    var $o = output.$('.c-list--number > li');
+    assert.equal($o.getProp('display'), 'list-item');
+  });
+
+  it('should have .c-list__item with display: list-item', function() {
+    var $o = output.$('.c-list--number .c-list__item');
+    assert.equal($o.getProp('display'), 'list-item');
   });
 });
