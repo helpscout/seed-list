@@ -6,7 +6,7 @@
 @import "pack/seed-publish/_index";
 
 @include export(seed-list) {
-  &--block {
+  &--#{$seed-list-block-namespace} {
     @include breakpoint-all {
       .#{$seed-list-item-namespace},
       > li {
@@ -16,7 +16,7 @@
   }
 
 
-  &--bordered {
+  &--#{$seed-list-bordered-namespace} {
     .#{$seed-list-item-namespace},
     > li {
       border-bottom: 1px solid;
@@ -25,7 +25,7 @@
   }
 
 
-  &--dotted {
+  &--#{$seed-list-dotted-namespace} {
     .#{$seed-list-item-namespace},
     > li {
       border-bottom: 1px dotted;
@@ -34,7 +34,7 @@
   }
 
 
-  &--inline {
+  &--#{$seed-list-inline-namespace} {
     @include breakpoint-all {
       .#{$seed-list-item-namespace},
       > li {
