@@ -8,7 +8,8 @@
     "build": "npm run build:main && npm run banner && npm run copy",
     "build:main": "node ./scripts/build.js",
     "copy": "cp ./dist/*.css ./example/dist/",
-    "test": "npm run build",
+    "test:mocha": "mocha",
+    "test": "npm run test:mocha",
     "prepublish": "npm run test"
   },
   "homepage": "https://github.com/helpscout/seed-list",
@@ -40,7 +41,8 @@
   },
   "devDependencies": {
     "mkdirp": "^0.5.1",
-    "node-sass": "^3.10.0"
+    "node-sass": "^3.10.0",
+    "seed-bistro": "0.0.3"
   },
   "dependencies": {
     "seed-border": "0.0.9",
