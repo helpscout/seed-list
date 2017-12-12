@@ -10,8 +10,7 @@ var file = pkg.name;
 var includePaths = pathfinder(
   require('seed-border'),
   require('seed-breakpoints'),
-  require('seed-publish'),
-  require('seed-spacing')
+  require('seed-publish')
 );
 
 // Default .css compile

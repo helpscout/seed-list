@@ -1,8 +1,5 @@
 // List :: Config
 
-// Dependencies
-@import "pack/seed-spacing/functions/spacing";
-
 // Namespaces
 $seed-list-namespace: "c-list" !default;
 $seed-list-item-namespace: #{$seed-list-namespace}__item !default;
@@ -14,13 +11,13 @@ $seed-list-inline-namespace: inline !default;
 $seed-list-number-namespace: number !default;
 
 // Sizes
-$seed-list-size-default: spacing(1) !default;
+$seed-list-size-default: 4px !default;
 $seed-list-offset-left: 16px !default;
 
 $seed-list-sizes: (
   xs: 0,
-  sm: ceil(spacing(1) / 2),
+  sm: 2px,
   md: $seed-list-size-default,
-  lg: spacing(2),
-  xl: spacing(4)
+  lg: 8px,
+  xl: 16px
 ) !default;

@@ -30,7 +30,7 @@ describe('seed-list: modifier: number', function() {
   });
 
   it('should have .c-list__item with display: list-item', function() {
-    var $o = output.$('.c-list--number .c-list__item');
+    var $o = output.$('.c-list--number > .c-list__item');
     assert.equal($o.getProp('display'), 'list-item');
   });
 });
