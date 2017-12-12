@@ -9,7 +9,7 @@
     list-style-type: disc;
     padding-left: $seed-list-offset-left;
 
-    .#{$seed-list-item-namespace},
+    & > .#{$seed-list-item-namespace},
     & > li {
       display: list-item;
     }
