@@ -46,7 +46,8 @@
     "lodash": "4.17.11",
     "mkdirp": "^0.5.1",
     "node-sass": "4.11.0",
-    "seed-bistro": "0.2.1"
+    "seed-bistro": "0.2.1",
+    "tar": "4.4.8"
   },
   "dependencies": {
     "seed-border": "0.0.10",
